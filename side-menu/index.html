@@ -4,23 +4,45 @@
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1 ">
-    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous"> -->
+    
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
     <!-- <script src="main.js"></script> -->
-    <title>title</title>
+    <title>Responsive Side Menu</title>
 </head>
 
 <body>
+    <nav class="navbar">
+        <span class="open-slide">
+            <a href="#">
+                <!-- HAMBURGER MENU SVG -->
+                <svg width="30" height="30">
+                    <path d="M0,5 30,5" stroke="#000" stroke-width="5"/>
+                    <path d="M0,14 30,14" stroke="#000" stroke-width="5"/>
+                    <path d="M0,23 30,23" stroke="#000" stroke-width="5"/>
+                </svg>
+            </a>
+        </span>
 
-<nav>
-</nav>
+        <ul class="navbar-nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
 
-<header>
-</header>
+    <div id="side-menu" class="side-nav">
+        <a href="#" class="btn-close">&times;</a>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </div>
 
-<footer>
-</footer>
+    <div id="main">
+        <h1>Responsive Side Menu</h1>
+        
+    </div>
 
 </body>
 </html>
