@@ -1,5 +1,5 @@
 
 Based off this tutorial:
     
-    all from scratch 
+    Sliding side menu from scratch 
     https://www.youtube.com/watch?v=wpGNFGqNfdU
